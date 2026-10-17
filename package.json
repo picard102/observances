@@ -1,0 +1,9 @@
+{
+  "name": "observances",
+  "version": "1.0.0",
+  "description": "Open list of holidays, heritage months and awareness days, with country codes and date rules.",
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "test": "node scripts/validate.mjs"
+  }
+}

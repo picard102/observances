@@ -1,0 +1,724 @@
+{
+  "version": 1,
+  "note": "Fill source_url with a primary source. countries uses ISO 3166-1 alpha-2 codes; \"*\" is global. rule kinds: nth_weekday (weekday 1=Mon..7=Sun), weekday_before (the given weekday before month/day).",
+  "observances": [
+    {
+      "id": "asian-heritage-month",
+      "name": "Asian Heritage Month",
+      "type": "monthly",
+      "month": 5,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates the contributions of Asian Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine asiatique"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "black-history-month",
+      "name": "Black History Month",
+      "type": "monthly",
+      "month": 2,
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "category": "heritage",
+      "description": "Honours the history and contributions of Black communities.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois de l'histoire des Noirs"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "national-indigenous-peoples-day",
+      "name": "National Indigenous Peoples Day",
+      "type": "yearly",
+      "month": 6,
+      "day": 21,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the cultures and contributions of First Nations, Inuit and Metis peoples.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale des peuples autochtones"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "hispanic-heritage-month",
+      "name": "Hispanic Heritage Month",
+      "type": "monthly",
+      "month": 9,
+      "countries": [
+        "US",
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates Hispanic and Latin American heritage and culture.",
+      "source_url": ""
+    },
+    {
+      "id": "new-years-day",
+      "name": "New Year's Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 1,
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "names": {
+        "fr": "Jour de l'An"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "victoria-day",
+      "name": "Victoria Day",
+      "type": "rule",
+      "rule": {
+        "kind": "weekday_before",
+        "month": 5,
+        "day": 25,
+        "weekday": 1
+      },
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Statutory holiday on the Monday before May 25.",
+      "names": {
+        "fr": "Fête de la Reine"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "canada-day",
+      "name": "Canada Day",
+      "type": "yearly",
+      "month": 7,
+      "day": 1,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Fête du Canada"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "labour-day",
+      "name": "Labour Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 9,
+        "weekday": 1,
+        "nth": 1
+      },
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "category": "civic",
+      "description": "Observed on the first Monday of September.",
+      "names": {
+        "fr": "Fête du Travail"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "thanksgiving-day",
+      "name": "Thanksgiving Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 10,
+        "weekday": 1,
+        "nth": 2
+      },
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Canadian Thanksgiving, the second Monday of October.",
+      "names": {
+        "fr": "Action de grâce"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "remembrance-day",
+      "name": "Remembrance Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 11,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours members of the armed forces who died in service.",
+      "names": {
+        "fr": "Jour du Souvenir"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "christmas-day",
+      "name": "Christmas Day",
+      "type": "yearly",
+      "month": 12,
+      "day": 25,
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "names": {
+        "fr": "Noël"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "boxing-day",
+      "name": "Boxing Day",
+      "type": "yearly",
+      "month": 12,
+      "day": 26,
+      "countries": [
+        "CA",
+        "GB",
+        "AU",
+        "NZ"
+      ],
+      "category": "civic",
+      "names": {
+        "fr": "Lendemain de Noël"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "national-day-for-truth-and-reconciliation",
+      "name": "National Day for Truth and Reconciliation",
+      "type": "yearly",
+      "month": 9,
+      "day": 30,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Honours Indigenous children who did not return home from residential schools, and survivors, families and communities.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de la vérité et de la réconciliation"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "national-indigenous-history-month",
+      "name": "National Indigenous History Month",
+      "type": "monthly",
+      "month": 6,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the history, heritage and diversity of Indigenous peoples in Canada.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois national de l'histoire autochtone"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "pride-month",
+      "name": "Pride Month",
+      "type": "monthly",
+      "month": 6,
+      "countries": [
+        "*"
+      ],
+      "category": "heritage",
+      "description": "Celebrates LGBTQ2S+ communities and commemorates the 1969 Stonewall uprising.",
+      "source_url": ""
+    },
+    {
+      "id": "first-contact-day",
+      "name": "First Contact Day",
+      "type": "yearly",
+      "month": 4,
+      "day": 5,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Star Trek fan day marking the fictional first contact between humans and Vulcans in 2063.",
+      "source_url": ""
+    },
+    {
+      "id": "star-wars-day",
+      "name": "Star Wars Day",
+      "type": "yearly",
+      "month": 5,
+      "day": 4,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Fans mark \"May the 4th be with you\".",
+      "source_url": ""
+    },
+    {
+      "id": "international-womens-day",
+      "name": "International Women's Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 8,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Celebrates the achievements of women and calls for gender equality.",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée internationale des femmes"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-environment-day",
+      "name": "World Environment Day",
+      "type": "yearly",
+      "month": 6,
+      "day": 5,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée mondiale de l'environnement"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "national-science-fiction-day",
+      "name": "National Science Fiction Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 2,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "source_url": ""
+    },
+    {
+      "id": "world-humanitarian-day",
+      "name": "World Humanitarian Day",
+      "type": "yearly",
+      "month": 8,
+      "day": 19,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "source_url": ""
+    },
+    {
+      "id": "international-day-of-peace",
+      "name": "International Day of Peace",
+      "type": "yearly",
+      "month": 9,
+      "day": 21,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée internationale de la paix"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-teachers-day",
+      "name": "World Teachers' Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 5,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "UNESCO",
+      "names": {
+        "fr": "Journée mondiale des enseignants"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "earth-day",
+      "name": "Earth Day",
+      "type": "yearly",
+      "month": 4,
+      "day": 22,
+      "countries": [
+        "*"
+      ],
+      "category": "environment",
+      "names": {
+        "fr": "Jour de la Terre"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-water-day",
+      "name": "World Water Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 22,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée mondiale de l'eau"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "international-day-of-happiness",
+      "name": "International Day of Happiness",
+      "type": "yearly",
+      "month": 3,
+      "day": 20,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "source_url": ""
+    },
+    {
+      "id": "world-health-day",
+      "name": "World Health Day",
+      "type": "yearly",
+      "month": 4,
+      "day": 7,
+      "countries": [
+        "*"
+      ],
+      "category": "health",
+      "organizer": "World Health Organization",
+      "names": {
+        "fr": "Journée mondiale de la santé"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "international-literacy-day",
+      "name": "International Literacy Day",
+      "type": "yearly",
+      "month": 9,
+      "day": 8,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "UNESCO",
+      "names": {
+        "fr": "Journée internationale de l'alphabétisation"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-food-day",
+      "name": "World Food Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 16,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "Food and Agriculture Organization",
+      "names": {
+        "fr": "Journée mondiale de l'alimentation"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "united-nations-day",
+      "name": "United Nations Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 24,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée des Nations Unies"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-diabetes-day",
+      "name": "World Diabetes Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 14,
+      "countries": [
+        "*"
+      ],
+      "category": "health",
+      "description": "Raises awareness of diabetes. Held on the birthday of Frederick Banting.",
+      "organizer": "International Diabetes Federation",
+      "names": {
+        "fr": "Journée mondiale du diabète"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "international-day-of-persons-with-disabilities",
+      "name": "International Day of Persons with Disabilities",
+      "type": "yearly",
+      "month": 12,
+      "day": 3,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "names": {
+        "fr": "Journée internationale des personnes handicapées"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "canadian-national-day-of-podcasting",
+      "name": "Canadian National Day of Podcasting",
+      "type": "yearly",
+      "month": 12,
+      "day": 1,
+      "countries": [
+        "CA"
+      ],
+      "category": "media",
+      "source_url": ""
+    },
+    {
+      "id": "international-podcast-day",
+      "name": "International Podcast Day",
+      "type": "yearly",
+      "month": 9,
+      "day": 30,
+      "countries": [
+        "*"
+      ],
+      "category": "media",
+      "source_url": ""
+    },
+    {
+      "id": "world-radio-day",
+      "name": "World Radio Day",
+      "type": "yearly",
+      "month": 2,
+      "day": 13,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "UNESCO",
+      "names": {
+        "fr": "Journée mondiale de la radio"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "world-television-day",
+      "name": "World Television Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 21,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "United Nations",
+      "source_url": ""
+    },
+    {
+      "id": "world-press-freedom-day",
+      "name": "World Press Freedom Day",
+      "type": "yearly",
+      "month": 5,
+      "day": 3,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "organizer": "UNESCO",
+      "names": {
+        "fr": "Journée mondiale de la liberté de la presse"
+      },
+      "source_url": ""
+    },
+    {
+      "id": "harry-potter-day",
+      "name": "Harry Potter Day",
+      "type": "yearly",
+      "month": 7,
+      "day": 31,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Fan day on the birthday of Harry Potter and J. K. Rowling.",
+      "source_url": ""
+    },
+    {
+      "id": "tolkien-reading-day",
+      "name": "Tolkien Reading Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 25,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "organizer": "The Tolkien Society",
+      "source_url": ""
+    },
+    {
+      "id": "doctor-who-day",
+      "name": "Doctor Who Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 23,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Marks the date the first episode aired in 1963.",
+      "source_url": ""
+    },
+    {
+      "id": "back-to-the-future-day",
+      "name": "Back to the Future Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 21,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "The date Marty McFly travels to in Back to the Future Part II.",
+      "source_url": ""
+    },
+    {
+      "id": "batman-day",
+      "name": "Batman Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 9,
+        "weekday": 6,
+        "nth": 3
+      },
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Observed on the third Saturday of September.",
+      "source_url": ""
+    },
+    {
+      "id": "alien-day",
+      "name": "Alien Day",
+      "type": "yearly",
+      "month": 4,
+      "day": 26,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "source_url": ""
+    },
+    {
+      "id": "international-sailor-moon-day",
+      "name": "International Sailor Moon Day",
+      "type": "yearly",
+      "month": 8,
+      "day": 15,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "source_url": ""
+    },
+    {
+      "id": "pokemon-day",
+      "name": "Pokémon Day",
+      "type": "yearly",
+      "month": 2,
+      "day": 27,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Marks the 1996 release of Pokémon Red and Green in Japan.",
+      "source_url": ""
+    },
+    {
+      "id": "star-trek-day",
+      "name": "Star Trek Day",
+      "type": "yearly",
+      "month": 9,
+      "day": 8,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "description": "Marks the premiere of the original series in 1966.",
+      "source_url": ""
+    },
+    {
+      "id": "marvel-day",
+      "name": "Marvel Day",
+      "type": "yearly",
+      "month": 8,
+      "day": 28,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "source_url": ""
+    },
+    {
+      "id": "dc-comics-day",
+      "name": "DC Comics Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 30,
+      "countries": [
+        "*"
+      ],
+      "category": "pop-culture",
+      "source_url": ""
+    }
+  ]
+}
