@@ -16,7 +16,7 @@
       "names": {
         "fr": "Mois du patrimoine asiatique"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "black-history-month",
@@ -33,7 +33,7 @@
       "names": {
         "fr": "Mois de l'histoire des Noirs"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "national-indigenous-peoples-day",
@@ -50,7 +50,7 @@
       "names": {
         "fr": "Journée nationale des peuples autochtones"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "hispanic-heritage-month",
@@ -58,8 +58,7 @@
       "type": "monthly",
       "month": 9,
       "countries": [
-        "US",
-        "CA"
+        "US"
       ],
       "category": "heritage",
       "description": "Celebrates Hispanic and Latin American heritage and culture.",
@@ -98,7 +97,7 @@
       "names": {
         "fr": "Fête de la Reine"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "canada-day",
@@ -114,7 +113,7 @@
       "names": {
         "fr": "Fête du Canada"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "labour-day",
@@ -171,7 +170,7 @@
       "names": {
         "fr": "Jour du Souvenir"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "christmas-day",
@@ -221,7 +220,7 @@
       "names": {
         "fr": "Journée nationale de la vérité et de la réconciliation"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "national-indigenous-history-month",
@@ -237,7 +236,7 @@
       "names": {
         "fr": "Mois national de l'histoire autochtone"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "pride-month",
@@ -250,6 +249,960 @@
       "category": "heritage",
       "description": "Celebrates LGBTQ2S+ communities and commemorates the 1969 Stonewall uprising.",
       "source_url": ""
+    },
+    {
+      "id": "tamil-heritage-month",
+      "name": "Tamil Heritage Month",
+      "type": "monthly",
+      "month": 1,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Tamil Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine tamoul"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-ribbon-skirt-day",
+      "name": "National Ribbon Skirt Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 4,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates the ribbon skirt as a symbol of Indigenous women's and girls' identity and resilience.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de la jupe à rubans"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-day-of-remembrance-for-victims-of-air-disasters",
+      "name": "National Day of Remembrance for Victims of Air Disasters",
+      "type": "yearly",
+      "month": 1,
+      "day": 8,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Remembers the victims of air disasters and their families.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de commémoration des victimes de catastrophes aériennes"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "sir-john-a-macdonald-day",
+      "name": "Sir John A. Macdonald Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 11,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the birthday of Canada's first prime minister.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée Sir John A. Macdonald"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "raoul-wallenberg-day",
+      "name": "Raoul Wallenberg Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 17,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours Raoul Wallenberg, who helped save Jewish people during the Second World War.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée Raoul Wallenberg"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "lincoln-alexander-day",
+      "name": "Lincoln Alexander Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 21,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours Lincoln Alexander, Canada's first Black member of Parliament and Ontario's first Black lieutenant governor.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée Lincoln Alexander"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "world-day-for-african-and-afrodescendant-culture",
+      "name": "World Day for African and Afrodescendant Culture",
+      "type": "yearly",
+      "month": 1,
+      "day": 24,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Celebrates African and Afrodescendant cultures. Proclaimed by UNESCO.",
+      "names": {
+        "fr": "Journée mondiale de la culture africaine et afro-descendante"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-holocaust-remembrance-day",
+      "name": "International Holocaust Remembrance Day",
+      "type": "yearly",
+      "month": 1,
+      "day": 27,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Remembers the victims of the Holocaust. Designated by the United Nations.",
+      "names": {
+        "fr": "Journée internationale dédiée à la mémoire des victimes de l'Holocauste"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-day-of-remembrance-of-the-quebec-city-mosque-attack-and-action-against-islamophobia",
+      "name": "National Day of Remembrance of the Quebec City Mosque Attack and Action Against Islamophobia",
+      "type": "yearly",
+      "month": 1,
+      "day": 29,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Remembers the victims of the 2017 Quebec City mosque attack and calls for action against Islamophobia.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de commémoration de l'attentat à la mosquée de Québec et d'action contre l'islamophobie"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-flag-of-canada-day",
+      "name": "National Flag of Canada Day",
+      "type": "yearly",
+      "month": 2,
+      "day": 15,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the anniversary of the national flag's first raising in 1965.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Jour du drapeau national du Canada"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-mother-language-day",
+      "name": "International Mother Language Day",
+      "type": "yearly",
+      "month": 2,
+      "day": 21,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Promotes linguistic and cultural diversity and multilingualism. Proclaimed by UNESCO.",
+      "names": {
+        "fr": "Journée internationale de la langue maternelle"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "irish-heritage-month",
+      "name": "Irish Heritage Month",
+      "type": "monthly",
+      "month": 3,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Irish Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine irlandais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-day-of-observance-for-covid-19",
+      "name": "National Day of Observance for COVID-19",
+      "type": "yearly",
+      "month": 3,
+      "day": 11,
+      "countries": [
+        "CA"
+      ],
+      "category": "health",
+      "description": "Remembers those lost to COVID-19 and recognizes those who responded to the pandemic.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de commémoration pour la COVID-19"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "commonwealth-day",
+      "name": "Commonwealth Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 14,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Celebrates the Commonwealth of Nations.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Jour du Commonwealth"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-day-to-combat-islamophobia",
+      "name": "International Day to Combat Islamophobia",
+      "type": "yearly",
+      "month": 3,
+      "day": 15,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Raises awareness of and works to counter Islamophobia. Proclaimed by the United Nations.",
+      "names": {
+        "fr": "Journée internationale de lutte contre l'islamophobie"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-day-for-the-elimination-of-racial-discrimination",
+      "name": "International Day for the Elimination of Racial Discrimination",
+      "type": "yearly",
+      "month": 3,
+      "day": 21,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Marks the 1960 Sharpeville massacre and promotes the fight against racial discrimination. Observed by the United Nations.",
+      "names": {
+        "fr": "Journée internationale pour l'élimination de la discrimination raciale"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-transgender-day-of-visibility",
+      "name": "International Transgender Day of Visibility",
+      "type": "yearly",
+      "month": 3,
+      "day": 31,
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "description": "Celebrates transgender people and raises awareness of discrimination they face.",
+      "names": {
+        "fr": "Journée internationale de la visibilité transgenre"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-indigenous-languages-day",
+      "name": "National Indigenous Languages Day",
+      "type": "yearly",
+      "month": 3,
+      "day": 31,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the importance of Indigenous languages.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale des langues autochtones"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "genocide-remembrance-condemnation-and-prevention-month",
+      "name": "Genocide Remembrance, Condemnation and Prevention Month",
+      "type": "monthly",
+      "month": 4,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "A month to remember victims of genocide and to condemn and prevent future genocides.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du souvenir, de la condamnation et de la prévention des génocides"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "anniversary-of-the-battle-of-vimy-ridge",
+      "name": "Anniversary of the Battle of Vimy Ridge",
+      "type": "yearly",
+      "month": 4,
+      "day": 9,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the 1917 battle in which the four divisions of the Canadian Corps fought together for the first time.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Anniversaire de la bataille de la crête de Vimy"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-day-of-pink",
+      "name": "International Day of Pink",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 4,
+        "weekday": 3,
+        "nth": 2
+      },
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "description": "Stands against bullying, discrimination, homophobia, transphobia and transmisogyny.",
+      "names": {
+        "fr": "Journée rose internationale"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "armenian-genocide-remembrance-day",
+      "name": "Armenian Genocide Remembrance Day",
+      "type": "yearly",
+      "month": 4,
+      "day": 24,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Remembers the victims of the Armenian genocide.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Jour commémoratif du génocide arménien"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "polish-heritage-month",
+      "name": "Polish Heritage Month",
+      "type": "monthly",
+      "month": 5,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Polish Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine polonais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "red-dress-day",
+      "name": "Red Dress Day",
+      "type": "yearly",
+      "month": 5,
+      "day": 5,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Raises awareness of missing and murdered Indigenous women, girls and 2SLGBTQQIA+ people.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée de la robe rouge"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "dutch-heritage-day",
+      "name": "Dutch Heritage Day",
+      "type": "yearly",
+      "month": 5,
+      "day": 5,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Dutch Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée du patrimoine néerlandais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-day-against-homophobia-transphobia-and-biphobia",
+      "name": "International Day Against Homophobia, Transphobia and Biphobia",
+      "type": "yearly",
+      "month": 5,
+      "day": 17,
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "description": "Raises awareness of violence and discrimination against LGBTQ+ people.",
+      "names": {
+        "fr": "Journée internationale contre l'homophobie, la transphobie et la biphobie"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "italian-heritage-month",
+      "name": "Italian Heritage Month",
+      "type": "monthly",
+      "month": 6,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Italian Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine italien"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "filipino-heritage-month",
+      "name": "Filipino Heritage Month",
+      "type": "monthly",
+      "month": 6,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Filipino Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine philippin"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "portuguese-heritage-month",
+      "name": "Portuguese Heritage Month",
+      "type": "monthly",
+      "month": 6,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Portuguese Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine portugais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "canadian-armed-forces-day",
+      "name": "Canadian Armed Forces Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 6,
+        "weekday": 7,
+        "nth": 1
+      },
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours the women and men who serve in the Canadian Armed Forces.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée des Forces armées canadiennes"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-day-of-remembrance-for-victims-of-terrorism",
+      "name": "National Day of Remembrance for Victims of Terrorism",
+      "type": "yearly",
+      "month": 6,
+      "day": 23,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Remembers the victims of terrorism and their families.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale du souvenir des victimes de terrorisme"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "saint-jean-baptiste-day",
+      "name": "Saint-Jean-Baptiste Day",
+      "type": "yearly",
+      "month": 6,
+      "day": 24,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Quebec's national holiday, also celebrated by Francophone communities across Canada.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "La Saint-Jean-Baptiste"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "canadian-multiculturalism-day",
+      "name": "Canadian Multiculturalism Day",
+      "type": "yearly",
+      "month": 6,
+      "day": 27,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates Canada's cultural diversity.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée canadienne du multiculturalisme"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "day-of-commemoration-of-the-great-upheaval",
+      "name": "Day of Commemoration of the Great Upheaval",
+      "type": "yearly",
+      "month": 7,
+      "day": 28,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Remembers the deportation of the Acadians, which began in 1755.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée de commémoration du Grand Dérangement"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "emancipation-day",
+      "name": "Emancipation Day",
+      "type": "yearly",
+      "month": 8,
+      "day": 1,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Marks the day in 1834 when the Slavery Abolition Act took effect across the British Empire, including Canada.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Jour de l'émancipation"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-acadian-day",
+      "name": "National Acadian Day",
+      "type": "yearly",
+      "month": 8,
+      "day": 15,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates Acadian culture and heritage.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Fête nationale de l'Acadie"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "british-home-child-day",
+      "name": "British Home Child Day",
+      "type": "yearly",
+      "month": 9,
+      "day": 28,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the British Home Children sent to Canada between 1869 and the late 1940s.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée des petits immigrés anglais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "german-heritage-month",
+      "name": "German Heritage Month",
+      "type": "monthly",
+      "month": 10,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of German Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine allemand"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "latin-american-heritage-month",
+      "name": "Latin American Heritage Month",
+      "type": "monthly",
+      "month": 10,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates the heritage and contributions of Latin American Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine latino-américain"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "women-s-history-month",
+      "name": "Women's History Month",
+      "type": "monthly",
+      "month": 10,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates the achievements of women in Canadian history.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois de l'histoire des femmes"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-seniors-day",
+      "name": "National Seniors Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 1,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Recognizes the contributions of seniors to Canadian society.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale des aînés"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "international-day-of-the-girl-child",
+      "name": "International Day of the Girl Child",
+      "type": "yearly",
+      "month": 10,
+      "day": 11,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Recognizes girls' rights and the challenges they face. Proclaimed by the United Nations.",
+      "names": {
+        "fr": "Journée internationale de la fille"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "persons-day",
+      "name": "Persons Day",
+      "type": "yearly",
+      "month": 10,
+      "day": 18,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the 1929 decision recognizing women as persons under Canadian law.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée de l'affaire « personne »"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "lebanese-heritage-month",
+      "name": "Lebanese Heritage Month",
+      "type": "monthly",
+      "month": 11,
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Recognizes the contributions of Lebanese Canadians.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Mois du patrimoine libanais"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "indigenous-veterans-day",
+      "name": "Indigenous Veterans Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 8,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours the service of First Nations, Inuit and Métis veterans.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée des vétérans autochtones"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-child-day",
+      "name": "National Child Day",
+      "type": "yearly",
+      "month": 11,
+      "day": 20,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the adoption of the UN Declaration and Convention on the Rights of the Child.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de l'enfant"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "transgender-day-of-remembrance",
+      "name": "Transgender Day of Remembrance",
+      "type": "yearly",
+      "month": 11,
+      "day": 20,
+      "countries": [
+        "*"
+      ],
+      "category": "civic",
+      "description": "Remembers transgender people lost to anti-trans violence.",
+      "names": {
+        "fr": "Jour du souvenir Trans"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "holodomor-memorial-day",
+      "name": "Holodomor Memorial Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 11,
+        "weekday": 6,
+        "nth": 4
+      },
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Remembers the victims of the 1932-33 famine in Soviet Ukraine.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Jour commémoratif de l'Holodomor"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "national-day-of-remembrance-and-action-on-violence-against-women",
+      "name": "National Day of Remembrance and Action on Violence Against Women",
+      "type": "yearly",
+      "month": 12,
+      "day": 6,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the anniversary of the 1989 École Polytechnique shooting in Montreal.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Journée nationale de commémoration et d'action contre la violence faite aux femmes"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "human-rights-day",
+      "name": "Human Rights Day",
+      "type": "yearly",
+      "month": 12,
+      "day": 10,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "Marks the 1948 adoption of the Universal Declaration of Human Rights.",
+      "names": {
+        "fr": "Journée des droits de la personne"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "anniversary-of-the-statute-of-westminster",
+      "name": "Anniversary of the Statute of Westminster",
+      "type": "yearly",
+      "month": 12,
+      "day": 11,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Marks the 1931 law that gave Canada and other dominions legislative independence.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Anniversaire du Statut de Westminster"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "heritage-day",
+      "name": "Heritage Day",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 2,
+        "weekday": 1,
+        "nth": 3
+      },
+      "countries": [
+        "CA"
+      ],
+      "category": "heritage",
+      "description": "Celebrates Canada's built and cultural heritage on the third Monday of February. Not a federal statutory holiday.",
+      "organizer": "National Trust for Canada",
+      "source_url": "https://nationaltrustcanada.ca/online-stories/celebrating-heritage-day-in-canada"
+    },
+    {
+      "id": "national-accessibility-week",
+      "name": "National Accessibility Week",
+      "type": "rule",
+      "rule": {
+        "kind": "nth_weekday",
+        "month": 5,
+        "weekday": 7,
+        "nth": -1
+      },
+      "days": 7,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Recognizes the contributions of persons with disabilities and promotes accessibility. Runs from the last Sunday of May for seven days.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Semaine nationale de l’accessibilité"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "veterans-week",
+      "name": "Veterans’ Week",
+      "type": "yearly",
+      "month": 11,
+      "day": 5,
+      "days": 7,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Honours Canadian veterans, running from November 5 to Remembrance Day.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Semaine des vétérans"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "16-days-of-activism-against-gender-violence",
+      "name": "16 Days of Activism Against Gender-Based Violence",
+      "type": "yearly",
+      "month": 11,
+      "day": 25,
+      "days": 16,
+      "countries": [
+        "*"
+      ],
+      "category": "un",
+      "description": "International campaign running from November 25 to Human Rights Day on December 10.",
+      "names": {
+        "fr": "Les 16 jours d’activisme contre la violence fondée sur le sexe"
+      },
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
+    },
+    {
+      "id": "gender-equality-week",
+      "name": "Gender Equality Week",
+      "type": "rule",
+      "rule": {
+        "kind": "weekday_before",
+        "month": 9,
+        "day": 23,
+        "weekday": 7
+      },
+      "days": 7,
+      "countries": [
+        "CA"
+      ],
+      "category": "civic",
+      "description": "Established by the Gender Equality Week Act as the fourth week of September. The Act does not name the days, so this follows the Sunday to Saturday weeks the government has used.",
+      "organizer": "Government of Canada",
+      "names": {
+        "fr": "Semaine de l’égalité des sexes"
+      },
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/G-2.3/FullText.html"
     },
     {
       "id": "first-contact-day",
@@ -292,7 +1245,7 @@
       "names": {
         "fr": "Journée internationale des femmes"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "world-environment-day",
@@ -506,7 +1459,7 @@
       "names": {
         "fr": "Journée internationale des personnes handicapées"
       },
-      "source_url": ""
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/important-commemorative-days.html"
     },
     {
       "id": "canadian-national-day-of-podcasting",
@@ -575,19 +1528,6 @@
       "names": {
         "fr": "Journée mondiale de la liberté de la presse"
       },
-      "source_url": ""
-    },
-    {
-      "id": "harry-potter-day",
-      "name": "Harry Potter Day",
-      "type": "yearly",
-      "month": 7,
-      "day": 31,
-      "countries": [
-        "*"
-      ],
-      "category": "pop-culture",
-      "description": "Fan day on the birthday of Harry Potter and J. K. Rowling.",
       "source_url": ""
     },
     {

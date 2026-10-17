@@ -25,6 +25,11 @@ for (const [i, o] of (data.observances ?? []).entries()) {
   if (!o.category) bad('category is required');
   if (o.source_url && !/^https?:\/\//.test(o.source_url)) bad('source_url must be an http(s) URL');
 
+  if (o.days !== undefined) {
+    if (!Number.isInteger(o.days) || o.days < 2 || o.days > 366) bad('days must be an integer from 2 to 366');
+    if (o.type === 'monthly') bad('monthly already covers the whole month, drop days');
+  }
+
   if (o.type === 'monthly' && !(o.month >= 1 && o.month <= 12)) bad('monthly needs month 1-12');
   if (o.type === 'yearly') {
     if (!(o.month >= 1 && o.month <= 12)) bad('yearly needs month 1-12');
@@ -36,7 +41,7 @@ for (const [i, o] of (data.observances ?? []).entries()) {
     if (!['nth_weekday', 'weekday_before'].includes(r.kind)) bad('rule.kind must be nth_weekday or weekday_before');
     if (!(r.month >= 1 && r.month <= 12)) bad('rule.month must be 1-12');
     if (!(r.weekday >= 1 && r.weekday <= 7)) bad('rule.weekday must be 1 (Monday) to 7 (Sunday)');
-    if (r.kind === 'nth_weekday' && !(r.nth >= 1 && r.nth <= 5)) bad('nth_weekday needs nth 1-5');
+    if (r.kind === 'nth_weekday' && ![-1, 1, 2, 3, 4, 5].includes(r.nth)) bad('nth_weekday needs nth 1-5, or -1 for the last');
     if (r.kind === 'weekday_before' && !(r.day >= 1 && r.day <= 31)) bad('weekday_before needs day');
   }
 }

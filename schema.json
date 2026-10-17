@@ -22,6 +22,7 @@
         "month": { "type": "integer", "minimum": 1, "maximum": 12 },
         "day": { "type": "integer", "minimum": 1, "maximum": 31 },
         "date": { "type": "string", "format": "date" },
+        "days": { "type": "integer", "minimum": 2, "maximum": 366, "description": "Length in days when the observance runs longer than one day, counting the start date" },
         "rule": {
           "type": "object",
           "required": ["kind", "month", "weekday"],
@@ -29,7 +30,7 @@
             "kind": { "enum": ["nth_weekday", "weekday_before"] },
             "month": { "type": "integer", "minimum": 1, "maximum": 12 },
             "weekday": { "type": "integer", "minimum": 1, "maximum": 7, "description": "1 = Monday ... 7 = Sunday" },
-            "nth": { "type": "integer", "minimum": 1, "maximum": 5 },
+            "nth": { "enum": [-1, 1, 2, 3, 4, 5], "description": "-1 = last" },
             "day": { "type": "integer", "minimum": 1, "maximum": 31 }
           }
         },

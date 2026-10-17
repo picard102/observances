@@ -26,6 +26,7 @@ Pin a [release tag](../../releases) such as `v1.0.0` if you need a stable copy.
 | `month`, `day` | by type | `monthly` needs `month`. `yearly` needs both. |
 | `date` | `date` type | A single `YYYY-MM-DD` date, for one-off events. |
 | `rule` | `rule` type | Floating dates, see below. |
+| `days` | no | Length of a multi-day observance, counting the start date. See below. |
 | `countries` | yes | ISO 3166-1 alpha-2 codes, or `"*"` for global days. |
 | `category` | yes | For example `heritage`, `civic`, `un`, `health`, `environment`, `media`, `pop-culture`. |
 | `description`, `origin` | no | One or two neutral sentences each. |
@@ -42,13 +43,23 @@ A day that falls on a different date in different countries gets one entry per c
 { "type": "rule", "rule": { "kind": "nth_weekday", "month": 10, "weekday": 1, "nth": 2 } }
 ```
 
-Second Monday of October. `weekday` is 1 (Monday) to 7 (Sunday).
+Second Monday of October. `weekday` is 1 (Monday) to 7 (Sunday). Use `"nth": -1` for the last one, such as the last Sunday of May.
 
 ```json
 { "type": "rule", "rule": { "kind": "weekday_before", "month": 5, "day": 25, "weekday": 1 } }
 ```
 
 The Monday before May 25.
+
+### Multi-day observances
+
+Add `days` to a `yearly` or `rule` entry. The start date comes from the entry as usual and the end is `start + days - 1`.
+
+```json
+{ "type": "yearly", "month": 11, "day": 5, "days": 7 }
+```
+
+November 5 to 11. `monthly` entries never need `days`.
 
 ## Examples
 
@@ -68,6 +79,10 @@ function dateIn(o, year) {
 
   const { kind, month, weekday, nth, day } = o.rule;
   if (kind === 'nth_weekday') {
+    if (nth === -1) {
+      const last = new Date(Date.UTC(year, month, 0));
+      return new Date(last - (((last.getUTCDay() || 7) - weekday + 7) % 7) * 864e5);
+    }
     const first = new Date(Date.UTC(year, month - 1, 1));
     const offset = (weekday - (first.getUTCDay() || 7) + 7) % 7;
     return new Date(Date.UTC(year, month - 1, 1 + offset + (nth - 1) * 7));
